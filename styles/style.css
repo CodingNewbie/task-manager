@@ -427,7 +427,7 @@ main {
     background-color: var(--hover);
 }
 
-#taskName {
+#inputName {
     font-size: 22px;
     font-weight: 600;
     width: 100%;
@@ -439,12 +439,12 @@ main {
     margin-bottom: 10px;
 }
 
-#taskName:hover {
+#inputName:hover {
     border: 1px solid var(--border-dark);
     background-color: transparent;
 }
 
-#taskName:focus {
+#inputName:focus {
     border: 3px solid var(--border-active);
     margin-left: -13px;
     padding: 3px 10px;
@@ -508,13 +508,13 @@ main {
     text-decoration: underline;
 }
 
-#taskProject {
+#inputProject {
     background-color: var(--hover-background-light);
     border-radius: 5px;
     transition: 0.3s ease;
 }
 
-#taskProject:hover {
+#inputProject:hover {
     background-color: var(--hover-background-dark);
 }
 
